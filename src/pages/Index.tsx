@@ -1,4 +1,5 @@
 import React from 'react';
+import { PromoBar } from "@/components/ui/promo-bar";
 import { Navigation } from "@/components/ui/navigation";
 import { HeroSection } from "@/components/ui/hero-section";
 import { FeaturedSection } from "@/components/sections/featured-section";
@@ -9,6 +10,7 @@ import { Footer } from "@/components/ui/footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <PromoBar />
       <Navigation />
       <HeroSection />
       <FeaturedSection />

@@ -9,7 +9,7 @@ interface NavigationProps {
 
 export const Navigation: React.FC<NavigationProps> = ({ className }) => {
   return (
-    <nav className={cn("w-full bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50", className)}>
+    <nav className={cn("w-full bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-40", className)}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}

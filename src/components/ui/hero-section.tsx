@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { ArrowRight, MapPin } from "lucide-react";
-import heroImage from "@/assets/caldas-hero.jpg";
+import mainBanner from "@/assets/praca_main.jpg"";
 
 interface HeroSectionProps {
   className?: string;
@@ -14,8 +14,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src={heroImage}
-          alt="Caldas da Rainha - Vista da cidade histórica"
+          src={mainBanner}
+          alt="Praça da Fruta das Caldas da Rainha"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/70 via-primary/40 to-transparent"></div>

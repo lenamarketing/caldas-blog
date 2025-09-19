@@ -16,8 +16,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ className }) => {
         <img 
           src={mainBanner}
           alt="Praça da Fruta das Caldas da Rainha"
-          className="w-full h-full object-cover"
-          style={{ objectPosition: '50% 80%' }}
+          className="w-full h-full object-cover object top" 
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/70 via-primary/40 to-transparent"></div>
       </div>

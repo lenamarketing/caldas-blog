@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { ArrowRight, MapPin } from "lucide-react";
-import mainBanner from "@/assets/praca_main.jpg";
+import mainBanner from "@/assets/praca_main";
 
 interface HeroSectionProps {
   className?: string;
